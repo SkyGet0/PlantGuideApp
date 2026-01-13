@@ -28,25 +28,25 @@
 com.example.plantguideapp/
 ├── ui/                          # Слой представления (Jetpack Compose)
 │   ├── home/
-│   │   └── HomeScreen.kt       # Главный экран с выбором категорий
+│   │   └── HomeScreen.kt        # Главный экран с выбором категорий
 │   ├── navigation/
-│   │   └── NavGraph.kt         # Настройка навигации с Compose Navigation
+│   │   └── NavGraph.kt          # Настройка навигации с Compose Navigation
 │   ├── plants/
-│   │   ├── PlantListScreen.kt  # Отображение растений по категориям с поиском
-│   │   ├── PlantDetailScreen.kt# Подробная информация о растении
+│   │   ├── PlantListScreen.kt   # Отображение растений по категориям с поиском
+│   │   ├── PlantDetailScreen.kt # Подробная информация о растении
 │   │   └── FavoritePlantsScreen.kt # Экран избранных растений
 │   └── theme/
 │       ├── Color.kt             # Определение цветов
 │       ├── Theme.kt             # Конфигурация Material 3 темы
 │       └── Type.kt              # Стили типографики
 ├── data/                        # Слой данных (Room Database)
-│   ├── Plant.kt                # Модель сущности растения
-│   ├── PlantDao.kt             # Data Access Object с запросами Room
-│   └── PlantDatabase.kt        # Настройка Room базы данных
+│   ├── Plant.kt                 # Модель сущности растения
+│   ├── PlantDao.kt              # Data Access Object с запросами Room
+│   └── PlantDatabase.kt         # Настройка Room базы данных
 ├── repository/                  # Слой репозитория (Абстракция данных)
-│   └── PlantRepository.kt      # Бизнес-логика и управление данными
+│   └── PlantRepository.kt       # Бизнес-логика и управление данными
 ├── viewmodel/                   # Слой ViewModel
-│   └── PlantViewModel.kt       # Управление состоянием и логика UI
+│   └── PlantViewModel.kt        # Управление состоянием и логика UI
 └── MainActivity.kt              # Точка входа приложения
 ```
 
