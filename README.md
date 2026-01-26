@@ -2,7 +2,7 @@
 
 Справочник растений для Android, написанный на **Kotlin** с использованием **Jetpack Compose**. Приложение предоставляет подробную информацию о различных растениях, включая овощи, травы и комнатные растения, с поддержкой управления избранным и локальным хранилищем данных через Room.
 
-<img width="1080" height="2400" alt="изображение" src="https://github.com/user-attachments/assets/430032db-af7e-46a1-9daf-aecd6cfc4080" />
+<img width="540" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/430032db-af7e-46a1-9daf-aecd6cfc4080" />
 ![Uploading изображение.png…]()
 ![Uploading изображение.png…]()
 
